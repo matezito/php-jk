@@ -8,6 +8,8 @@ pipeline {
             step {
                 sh 'composer install'
             }
+        }
+        stage('test shell') {  
             step {
                 sh 'echo "composer instalado"'
             }
