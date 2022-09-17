@@ -3,10 +3,7 @@
     "autoload": {
         "psr-4": {
             "Jeiri\\PhpJk\\": "src/"
-        },
-        "classmap": [
-            "src/"
-        ]
+        }
     },
     "authors": [
         {
