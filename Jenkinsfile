@@ -9,9 +9,9 @@ pipeline {
                 sh 'composer install'
             }
         }
-        stage('test shell') {  
+        stage('test again') {
             steps {
-                sh 'echo "composer instalado"'
+                sh './vendor/bin/phpunit tests'
             }
         }
     }

@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Jeiri\\PhpJk\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/"
+        ]
     },
     "authors": [
         {
@@ -11,5 +14,7 @@
             "email": "jeiriart@gmail.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
 }
