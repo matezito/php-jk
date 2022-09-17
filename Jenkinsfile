@@ -5,12 +5,12 @@ pipeline {
     }
     stages {
         stage('install') {
-            step {
+            steps {
                 sh 'composer install'
             }
         }
         stage('test shell') {  
-            step {
+            steps {
                 sh 'echo "composer instalado"'
             }
         }
